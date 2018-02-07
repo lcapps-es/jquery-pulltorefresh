@@ -1,0 +1,26 @@
+{
+  "name": "jquery-pulltorefresh",
+  "version": "0.1.0",
+  "description": "jQuery PullToRefresh Plugin.",
+  "main": "js/pullToRefresh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcapps-es/jquery-pulltorefresh.git"
+  },
+  "keywords": [
+    "jquery",
+    "pull",
+    "refresh",
+    "plugin",
+    "extend"
+  ],
+  "author": "LCApps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcapps-es/jquery-pulltorefresh/issues"
+  },
+  "homepage": "https://github.com/lcapps-es/jquery-pulltorefresh#readme"
+}
