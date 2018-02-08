@@ -59,7 +59,7 @@
                 window.addEventListener('touchmove', function( event ){
                     var y = event.touches[0].clientY;
 
-                    var diff = (y - $(el).data('posY') ) / 2;
+                    var diff = (y - $(el).data('posY') ) / 1;
 
                     if( diff > 0 && diff < __PullToRefresh.MAX_HEIGHT ){
                         $('.refresh-' + id ).css('min-height', diff );
@@ -71,7 +71,7 @@
                 window.addEventListener('touchend', function( event ) {
                     var y = event.changedTouches[0].clientY;
 
-                    var diff = (y - $(el).data('posY') ) / 2;
+                    var diff = (y - $(el).data('posY') ) / 1;
 
                     if( diff > 0 && diff < __PullToRefresh.UPDATE_HEIGHT ){
                         $('.refresh-' + id ).css('min-height', 0 );
